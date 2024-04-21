@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+} from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
   let date = new Date();
@@ -14,18 +14,18 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Designed and Developed by Vikas Kumar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} VK</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
+                href="https://github.com/Vikas2489"
+                style={{ color: 'white' }}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -33,9 +33,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
+                href="https://x.com/VikasKu22498085?t=trY4jNoLN4EOHhCkQ8anYg&s=09"
+                style={{ color: 'white' }}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -43,9 +43,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
+                href="https://www.linkedin.com/in/vikas-kumar-9822011a5/"
+                style={{ color: 'white' }}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -53,9 +53,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
+                href="https://www.instagram.com/dev.mooscles/"
+                style={{ color: 'white' }}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
