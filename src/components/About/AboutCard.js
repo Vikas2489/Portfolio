@@ -11,10 +11,8 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Vikas Kumar </span>
             from <span className="purple"> Delhi, India.</span>
             <br />
-            I'm a software developer at Modulus Seventeen with 1.3 years of
-            experience. I've built a product that simplifies distribution for
-            shopkeepers and distributors, offering them a user-friendly
-            platforms.
+            Experienced full-stack developer with 1.9 years of expertise in the MERN Stack has demonstrated a strong ability to design and implement successful e-commerce platforms. I have worked on two significant projects: Modulus Sell and Modulus Buy, which cater to the B2B market, and Cayroshop, a B2C platform. Notably, they played a pivotal role in leading the team responsible for building the company's e-commerce website.
+         
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

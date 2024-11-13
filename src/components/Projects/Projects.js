@@ -8,6 +8,7 @@ import blogApp from '../../Assets/Projects/blog.png';
 import chatify from '../../Assets/Projects/chatify.png';
 import quizApp from '../../Assets/Projects/quiz-app.png';
 import shoppingCart from '../../Assets/Projects/shopping-cart.png';
+import cayroshop from '../../Assets/Projects/cayroshop.com.png';
 
 function Projects() {
   return (
@@ -18,9 +19,18 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: 'white' }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cayroshop}
+              isBlog={false}
+              title="Cayroshop.com"
+              description="I led the development of Cayroshop, a company project that resulted in a fully functional eCommerce site. Using the MERN stack (MongoDB, Express.js, React.js, Node.js), I enhanced user experience by managing product categories and implementing Elastic Search for rapid searches. I set up a Digital Ocean VM for hosting, applied effective SEO strategies, integrated a secure payment gateway, and configured Nginx with SSL for security. Additionally, I developed voice search functionality for hands-free engagement. This project showcases my expertise in delivering comprehensive eCommerce solutions." 
+              demoLink="https://cayroshop.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blogApp}
