@@ -11,8 +11,13 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Vikas Kumar </span>
             from <span className="purple"> Delhi, India.</span>
             <br />
-            Experienced full-stack developer with 1.9 years of expertise in the MERN Stack has demonstrated a strong ability to design and implement successful e-commerce platforms. I have worked on two significant projects: Modulus Sell and Modulus Buy, which cater to the B2B market, and Cayroshop, a B2C platform. Notably, they played a pivotal role in leading the team responsible for building the company's e-commerce website.
-         
+            With 1.9 years of experience as a full-stack developer specializing
+            in the MERN stack (MongoDB, Express.js, React.js, andNode.js), I
+            have built e-commerce platforms for two major projects : Modulus
+            Sell and Modulus Buy, which simplify distribution for shopkeepers
+            and distributors. Additionally, I completed a freelance project
+            developing an e-commerce website, leading the team responsible for
+            its creation.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

@@ -8,7 +8,7 @@ import blogApp from '../../Assets/Projects/blog.png';
 import chatify from '../../Assets/Projects/chatify.png';
 import quizApp from '../../Assets/Projects/quiz-app.png';
 import shoppingCart from '../../Assets/Projects/shopping-cart.png';
-import cayroshop from '../../Assets/Projects/cayroshop.com.png';
+import ecommerce from '../../Assets/Projects/ecommerce.png';
 
 function Projects() {
   return (
@@ -24,11 +24,11 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cayroshop}
+              imgPath={ecommerce}
               isBlog={false}
-              title="Cayroshop.com"
-              description="I led the development of Cayroshop, a company project that resulted in a fully functional eCommerce site. Using the MERN stack (MongoDB, Express.js, React.js, Node.js), I enhanced user experience by managing product categories and implementing Elastic Search for rapid searches. I set up a Digital Ocean VM for hosting, applied effective SEO strategies, integrated a secure payment gateway, and configured Nginx with SSL for security. Additionally, I developed voice search functionality for hands-free engagement. This project showcases my expertise in delivering comprehensive eCommerce solutions." 
-              demoLink="https://cayroshop.com/"
+              title="E-Commerce Website"
+              description="I led the development of an e-commerce website as a freelance project, which is currently in the development phase and hosted locally. Using the MERN stack (MongoDB, Express.js, React.js, Node.js), I enhanced user experience by managing product categories and implementing Elastic Search for quick searches. I set up a Digital Ocean VM for hosting, applied effective SEO strategies, integrated a secure payment gateway, and configured Nginx with SSL for security. Additionally, I developed voice search functionality for hands-free engagement. This project showcases my expertise in delivering comprehensive e-commerce solutions."
+              // demoLink="https://cayroshop.com/"
             />
           </Col>
           <Col md={4} className="project-card">
