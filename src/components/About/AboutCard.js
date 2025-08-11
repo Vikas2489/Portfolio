@@ -1,23 +1,26 @@
-import React from 'react';
-import Card from 'react-bootstrap/Card';
-import { ImPointRight } from 'react-icons/im';
+import React from "react";
+import Card from "react-bootstrap/Card";
+import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: 'justify' }}>
+          <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Vikas Kumar </span>
             from <span className="purple"> Delhi, India.</span>
             <br />
-            With 1.9 years of experience as a full-stack developer specializing
-            in the MERN stack (MongoDB, Express.js, React.js, andNode.js), I
-            have built e-commerce platforms for two major projects : Modulus
-            Sell and Modulus Buy, which simplify distribution for shopkeepers
-            and distributors. Additionally, I completed a freelance project
-            developing an e-commerce website, leading the team responsible for
-            its creation.
+            Experienced Full-Stack Developer with 2.5+ years of expertise in
+            MERN stack technologies (MongoDB, Express.js, React.js, Node.js).
+            Demonstrated success in delivering scalable e-commerce platforms and
+            enterprise- grade solutions for both B2B and B2C markets. Proven
+            leader with experience managing cross-functional development teams
+            to build distribution platforms and consumer-facing applications.
+            Currently developing CRM systems, admin dashboards, and real estate
+            websites using React.js and Next.js while optimizing application
+            performance and implementing GSAP animations to enhance user
+            experience.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -29,13 +32,10 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
           </ul>
 
-          <p style={{ color: 'rgb(155 126 172)' }}>
-            "Strive to think out of the box and build it"{' '}
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "Strive to think out of the box and build it"{" "}
           </p>
           <footer className="blockquote-footer">Vikas Kumar</footer>
         </blockquote>
